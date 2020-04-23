@@ -1,10 +1,10 @@
-.PHONY: dep build fmt
+.PHONY: mod build fmt
 
-dep:
-		dep ensure
+mod:
+		go mod tidy
 
-build: dep
+build: mod
 		go build -o todos .
 
-fmt: dep
+fmt: mod
 		go fmt ./...
