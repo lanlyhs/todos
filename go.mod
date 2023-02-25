@@ -27,5 +27,5 @@ require (
 	github.com/stretchr/testify v1.3.0 // indirect
 	github.com/theaaf/todos v0.0.0-20190402231846-ad63ef47a387
 	golang.org/x/crypto v0.0.0-20190325154230-a5d413f7728c
-	golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a
+	golang.org/x/sys v0.1.0
 )
